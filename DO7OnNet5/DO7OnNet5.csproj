@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.13.12"/>
+    <PackageReference Include="Xtensive.Orm" Version="7.0.3"/>
+    <PackageReference Include="Xtensive.Orm.SqlServer" Version="7.0.3"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DO7Net5Model\DO7Net5Model.csproj" />
+    <ProjectReference Include="..\Shared\Shared.csproj" />
+  </ItemGroup>
+
+</Project>
